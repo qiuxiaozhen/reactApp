@@ -1,0 +1,40 @@
+.css-page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background: #fff;
+
+  .nav-wrap {
+    width: 22%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #ccc;
+  }
+  
+  .content {
+    margin-top: 20px;
+
+    .space {
+      margin-right: 20px;
+    }
+
+    .btn-wrap {
+      width: 98%;
+      text-align: right;
+    }
+
+    #monacojavascript, #monacohtml, #monacocss {
+      width: calc(50% - 2px);
+      height: calc(50% - 2px);
+      border: 1px solid #ccc;
+    }
+
+    #result {
+      border: 1px solid #ccc;
+      width: 620px;
+      height: 298px;
+      overflow: scroll;
+    }
+  }
+}
